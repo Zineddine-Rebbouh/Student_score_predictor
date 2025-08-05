@@ -2,9 +2,9 @@
 
 **Project Title** : Predicting Student Exam Scores Using Machine Learning
 
-**Date** : August 5, 2025
+**Date** : August 6, 2025
 
-**Author** : [Your Name]
+**Author** : Zineddine Rebbouh
 
 ---
 
@@ -28,7 +28,7 @@ The project uses Python with libraries such as Pandas, Matplotlib, Seaborn, Scik
 - **Source** : Student Performance Factors (Kaggle)
 - **Target Variable** : **Exam_Score** (continuous, 0-100)
 - **Features** : Includes numeric (e.g., **Hours_Studied**, **Attendance**) and categorical (e.g., **Teacher_Quality**, **Parental_Education_Level**) variables
-- **Size** : [Exact size depends on dataset, e.g., ~6600 rows]
+- **Size** : 6607 rows
 
 ---
 
