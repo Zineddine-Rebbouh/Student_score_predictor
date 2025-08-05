@@ -1,0 +1,160 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+venv.bak/
+env.bak/
+
+# Jupyter Notebook
+# .ipynb_checkpoints/
+# */.ipynb_checkpoints/*
+# *.ipynb_checkpoints
+.steps/
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data files (large datasets)
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+data/raw_data/*.csv
+data/processed_data/*.csv
+
+# Keep sample or small data files
+!data/sample_*.csv
+!data/test_*.csv
+
+# Machine Learning Models
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Experiment logs
+experiments/
+logs/
+*.log
+experiment_*.json
+
+# Tensorboard logs
+runs/
+tensorboard/
+
+# Weights & Biases
+wandb/
+
+# Images and plots
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!README_*.png
+!example_*.png
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+site/
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling
+.prof
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
