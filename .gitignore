@@ -45,7 +45,7 @@ env.bak/
 *.code-workspace
 
 # Data files (large datasets)
-*.csv
+# *.csv
 *.tsv
 *.json
 *.xml
@@ -54,25 +54,25 @@ env.bak/
 *.parquet
 *.h5
 *.hdf5
-data/raw_data/*.csv
-data/processed_data/*.csv
+# data/raw_data/*.csv
+# data/processed_data/*.csv
 
 # Keep sample or small data files
 !data/sample_*.csv
 !data/test_*.csv
 
 # Machine Learning Models
-models/
-*.pkl
-*.pickle
-*.joblib
-*.h5
-*.hdf5
-*.ckpt
-*.pth
-*.pt
-*.model
-*.weights
+# models/
+# *.pkl
+# *.pickle
+# *.joblib
+# *.h5
+# *.hdf5
+# *.ckpt
+# *.pth
+# *.pt
+# *.model
+# *.weights
 
 # MLflow
 mlruns/
